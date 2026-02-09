@@ -1,0 +1,15 @@
+:root {
+    --color-header-bg: #d9b990;
+    --color-page-bg: peachpuff;
+    --color-text-strong: black;
+    --color-link-base: blue;
+    --color-error: #b00020;
+}
+
+body.dark-mode {
+    --color-header-bg: #1e1e1e;
+    --color-page-bg: #121212;
+    --color-text-strong: #f5f5f5;
+    --color-link-base: #8ab4f8;
+    --color-error: #ff6b6b;
+}

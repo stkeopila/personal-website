@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="instrument-serif-regular">
+    <main>
+        <div class="container">
+            <img class="picture-me" src="mememe.JPEG" alt="Photo of Stanley"/>
+            <div class="contact">
+                <h2 class="contact-info instrument-serif-regular-italic">
+                    Email: <br>
+                    Phone: <br>
+                    Github:
+                </h2>
+                <ul class="contact-information">
+                    <li>skeopila@calpoly.edu</li>
+                    <li>4152142657</li>
+                    <li>skeopila</li>
+                </ul>
+            </div>
+            <div class="about-me">
+                <h3>My Favorite Boba/Tea</h3>
+                <a class="links" href="tea.html">These are my Tea/Boba reviews</a>
+                <dl>
+                    <dt><b>Moly Tea - 10/10</b></dt>
+                    <dd>It is beautiful.</dd>
+    
+                    <dt><b>TpTea - 9/10</b></dt>
+                    <dd>After Molly Tea, it hasn't been the same</dd>
+                </dl>
+            </div>
+        </div>
+
+        <section class="form-section">
+            <h3>Contact Me</h3>
+            <form id="contact-form" novalidate>
+                <div>
+                    <label for="contact-email">Email</label>
+                    <input id="contact-email" name="email" type="email" required />
+                </div>
+
+                <fieldset id="visitor-type-fieldset">
+                    <legend>What best describes you?</legend>
+                    <div>
+                        <input id="visitor-employer" name="visitor-type" type="checkbox" value="employer" />
+                        <label for="visitor-employer">Employer</label>
+                    </div>
+                    <div>
+                        <input id="visitor-peer" name="visitor-type" type="checkbox" value="peer" />
+                        <label for="visitor-peer">Peer</label>
+                    </div>
+                    <div>
+                        <input id="visitor-other" name="visitor-type" type="checkbox" value="other" />
+                        <label for="visitor-other">Other</label>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
+    <script type="module" src="./header.mjs"></script>
+    <script type="module" src="./test.mjs"></script>
+    <script type="module" src="./form.mjs"></script>
+
+</body>
+</html>
